@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Coding</title>
+    <link rel="stylesheet" href="tugasp20.css">
+</head>
+<body>
+    <header>
+        <h1>andritutorial</h1>
+        <p>Belajar Coding Jadi Lebih Mudah dan Menyenangkan</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tutorials">Tutorial</a></li>
+            <li><a href="#categories">Kategori</a></li>
+            <li><a href="#about">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="hero" id="home">
+            <h2>Selamat Datang di andritutorial!</h2>
+            <p>Temukan berbagai tutorial coding dari dasar hingga advanced. Mulai perjalanan belajar kamu sekarang!</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Cari tutorial yang kamu butuhkan...">
+        </div>
+
+        <div class="category-tabs" id="categories">
+            <div class="tab active" data-category="all">Semua Tutorial</div>
+            <div class="tab" data-category="html">HTML</div>
+            <div class="tab" data-category="css">CSS</div>
+            <div class="tab" data-category="javascript">JavaScript</div>
+            <div class="tab" data-category="python">Python</div>
+        </div>
+
+        <div class="blog-grid" id="tutorials">
+            <div class="blog-card" data-category="html">
+                <div class="blog-header">
+                    <h3>💻 Belajar HTML dari Nol</h3>
+                    <span class="blog-category">HTML</span>
+                </div>
+                <div class="blog-body">
+                    <p>Pelajari dasar-dasar HTML mulai dari struktur dokumen, tag-tag penting, hingga membuat halaman web pertama kamu. Tutorial ini cocok untuk pemula yang baru mulai belajar web development.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 15 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="css">
+                <div class="blog-header">
+                    <h3>🎨 CSS untuk Pemula</h3>
+                    <span class="blog-category">CSS</span>
+                </div>
+                <div class="blog-body">
+                    <p>Mempercantik website dengan CSS! Belajar selector, property, colors, layout, dan teknik styling modern untuk membuat website yang menarik dan responsif.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 20 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="javascript">
+                <div class="blog-header">
+                    <h3>⚡ JavaScript Dasar</h3>
+                    <span class="blog-category">JavaScript</span>
+                </div>
+                <div class="blog-body">
+                    <p>Mulai coding dengan JavaScript! Pelajari variable, function, loop, dan cara membuat website interaktif yang dynamic. Lengkap dengan contoh code yang mudah dipahami.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 25 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="html">
+                <div class="blog-header">
+                    <h3>📱 Membuat Form HTML</h3>
+                    <span class="blog-category">HTML</span>
+                </div>
+                <div class="blog-body">
+                    <p>Tutorial lengkap membuat form input, dari text field, checkbox, radio button, hingga submit button. Termasuk best practice untuk form yang user-friendly.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 18 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="css">
+                <div class="blog-header">
+                    <h3>📐 Flexbox Layout</h3>
+                    <span class="blog-category">CSS</span>
+                </div>
+                <div class="blog-body">
+                    <p>Kuasai CSS Flexbox untuk membuat layout yang flexible dan responsive. Pelajari property penting seperti justify-content, align-items, dan flex-direction dengan contoh praktis.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 22 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="javascript">
+                <div class="blog-header">
+                    <h3>🎯 DOM Manipulation</h3>
+                    <span class="blog-category">JavaScript</span>
+                </div>
+                <div class="blog-body">
+                    <p>Belajar memanipulasi elemen HTML dengan JavaScript. Dari select element, mengubah content, styling, hingga handling events untuk membuat website yang interactive.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 30 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="python">
+                <div class="blog-header">
+                    <h3>🐍 Python untuk Pemula</h3>
+                    <span class="blog-category">Python</span>
+                </div>
+                <div class="blog-body">
+                    <p>Mulai belajar Python dari dasar! Tutorial ini membahas syntax dasar, tipe data, conditional, loop, dan function. Cocok untuk yang baru mulai programming.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 28 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="css">
+                <div class="blog-header">
+                    <h3>✨ CSS Animation</h3>
+                    <span class="blog-category">CSS</span>
+                </div>
+                <div class="blog-body">
+                    <p>Buat website lebih hidup dengan CSS Animation! Pelajari transition, keyframe, dan berbagai teknik animasi untuk meningkatkan user experience website kamu.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 25 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card" data-category="javascript">
+                <div class="blog-header">
+                    <h3>🔄 Async JavaScript</h3>
+                    <span class="blog-category">JavaScript</span>
+                </div>
+                <div class="blog-body">
+                    <p>Pahami konsep asynchronous programming di JavaScript. Belajar tentang callback, promise, dan async/await untuk handling data dari API atau operasi yang memakan waktu.</p>
+                    <div class="blog-meta">
+                        <span>⏱️ 35 menit</span>
+                        <a href="#" class="read-more">Baca Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar" id="about">
+            <h3>Kategori Populer</h3>
+            <ul>
+                <li>HTML & Struktur Web</li>
+                <li>CSS & Styling</li>
+                <li>JavaScript & Interaktivitas</li>
+                <li>Python Programming</li>
+                <li>Responsive Design</li>
+                <li>Web Development Tips</li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <h3>Tips Belajar</h3>
+            <ul>
+                <li>Praktek setiap hari</li>
+                <li>Buat project sendiri</li>
+                <li>Baca dokumentasi resmi</li>
+                <li>Join komunitas developer</li>
+                <li>Jangan takut error</li>
+                <li>Keep learning & stay curious</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 andritutorial</p>
+        <p style="margin-top: 0.5rem; opacity: 0.9;">Dibuat dengan ANDRI menggunakan HTML, CSS, dan JavaScript</p>
+    </footer>
+
+    <script src="tugasp20.js"></script>
+</body>
+</html>
